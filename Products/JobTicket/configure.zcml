@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="Products.JobTicket">
+    
+    <five:registerPackage package="." initialize=".initialize" />
+    
+    <gs:registerProfile
+      name="default"
+      title="Products.JobTicket"
+      directory="profiles/default"
+      description="Allows tracking of customer jobs and associated expenses incurred."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+      
+</configure>

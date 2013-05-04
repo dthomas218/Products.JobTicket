@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<import-steps>
+
+  <import-step
+     id="jobticket-setupplugins"
+     version="20070105-01"
+     handler="Products.JobTicket.setuphandlers.setupVarious"
+     title="Sets up the JobTicket package">
+    Sets up the JobTicket package
+  </import-step>
+
+</import-steps>

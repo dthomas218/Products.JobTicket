@@ -1,0 +1,24 @@
+Metadata-Version: 1.0
+Name: Products.JobTicket
+Version: 1.0
+Summary: Allows tracking of customer jobs and associated expenses incurred.
+Home-page: http://www.emergetec.com
+Author: Tim Knapp
+Author-email: tim@emergetec.com
+License: GPL
+Description: Introduction
+        ============
+        
+        
+        
+        Changelog
+        =========
+        
+        1.0dev (unreleased)
+        -------------------
+        
+        - Initial release
+        
+Keywords: job tracking expenses plone archetypes
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
