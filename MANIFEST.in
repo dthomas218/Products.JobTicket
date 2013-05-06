@@ -1,2 +1,3 @@
 recursive-include Products *
+recursive-include docs *.txt
 global-exclude *pyc

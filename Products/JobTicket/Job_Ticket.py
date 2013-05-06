@@ -223,7 +223,8 @@ Job_Ticket_schema = schemata.ATContentTypeSchema.copy() + \
 Job_Ticket_schema['description'].widget.visible = {'edit':'invisible', 'view':'invisible'}
 
 class Job_Ticket(base.ATCTContent):
-    __implements__ = (base.ATCTContent.__implements__, IATContentType) 
+    # Huh? //regebro
+    #__implements__ = (base.ATCTContent.__implements__, IATContentType) 
 
     meta_type = 'Job_Ticket'
     portal_type = 'Job_Ticket'
