@@ -1,10 +1,10 @@
 Changelog
 =========
 
-1.1 (unreleased)
+1.1 (2013-05-06)
 ----------------
 
-- Nothing changed yet.
+- Plone 4 compatibility.
 
 
 1.0 (2013-05-04)
